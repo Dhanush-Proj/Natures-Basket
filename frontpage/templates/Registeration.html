@@ -1,0 +1,84 @@
+</html>
+<head>
+    <title>Document</title>
+    <style>
+        input,select,button{
+            padding: 10px;
+            
+        }
+        td{
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <fieldset>
+    <legend><h1>Registeration Form</h1></legend>
+
+    <form action="registered/" method="post" enctype="multipart/form-data">
+    <table>
+        <tr>
+            <td>
+                <label for="name">Name </label>
+            </td>
+            <td>
+                <input type="text" required="required" id="name"/>
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                <label for="phone"> Phone No.</label>
+            </td>
+            <td>
+                <input type="tel" required="required" id="phone"/>
+            </td>    
+
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Email </label> 
+            </td>
+            <td>
+                <input type="email" required="required" id="email"/>
+            </td>
+
+        </tr>
+        <tr>
+            <td>
+                <label for="address">Address</label>
+            </td>
+                <td>
+                    <textarea id="address" cols="30" rows="10"></textarea>
+                </td>    
+        </tr>
+        <tr>
+            <td>
+                <label for="states">State</label>
+            </td>
+            <td>
+
+                <select  id="states">
+                    <option value="kerala">Kerala</option>
+                    
+                    <option value="Tamil nadu">Tamil nadu</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+            </td>
+            <td>
+                <button type="submit">Register</button>
+            </td>
+        </tr>
+    </table>
+
+        <br/>
+    </form>
+</fieldset>
+</body>
+</html>
